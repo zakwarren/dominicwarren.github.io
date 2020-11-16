@@ -110,7 +110,7 @@ a:hover::after {
 
 /* Page layout */
 .intro-heading {
-	font-size 50px;
+	font-size: 50px;
 	font-family: "Arial", sans-serif;
 	font-weight: bold;
 }
