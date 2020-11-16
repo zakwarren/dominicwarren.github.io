@@ -154,6 +154,13 @@ a:hover::after {
 	margin-top: 30px;
 }
 
+.content2 {
+	max-width: 100%;
+	display: block;
+	margin-top: 30px;
+	font-size: 40px;
+}
+
 .column {
 	width: 40%;
 	float: left;
