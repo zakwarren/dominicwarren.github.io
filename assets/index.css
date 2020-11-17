@@ -109,18 +109,6 @@ a:hover::after {
 
 
 /* Page layout */
-
-.hp-list {
-	
-}
-
-.arrow-icon {
-	font-family: 150px;
-	font-weight: bold;
-}
-
-
-
 .intro-heading {
 	font-size: 60px;
 	font-family: "Arial", sans-serif;
@@ -181,6 +169,11 @@ a:hover::after {
 .hp-block {
 	display: block;
 	padding-bottom: 25px;
+}
+
+.arrow-icon {
+	font-family: 150px;
+	font-weight: bold;
 }
 
 #spacer-bottom {
