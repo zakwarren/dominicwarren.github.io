@@ -115,7 +115,8 @@ a:hover::after {
 }
 
 .arrow-icon {
-	font-family: 80px;	
+	font-family: 150px;
+	font-weight: bold;
 }
 
 
