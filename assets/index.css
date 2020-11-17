@@ -109,8 +109,19 @@ a:hover::after {
 
 
 /* Page layout */
+
+.hp-list {
+	
+}
+
+.arrow-icon {
+	font-family: 80px;	
+}
+
+
+
 .intro-heading {
-	font-size: 50px;
+	font-size: 60px;
 	font-family: "Arial", sans-serif;
 	font-weight: bold;
 	line-height: 125%;
@@ -118,7 +129,6 @@ a:hover::after {
 
 
 .intro {
-	font-size: 34px;
 	font-family: "Arial", sans-serif;
 	line-height: 125%;
 }
