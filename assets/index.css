@@ -122,17 +122,6 @@ a:hover::after {
 	line-height: 125%;
 }
 
-.hp-item {
-	display: block;
-}
-
-.item-description {
-	color: #595959;
-	font-size: 30px;
-	margin-top: 0%;
-}
-
-
 .profile-photo {
 
 }
