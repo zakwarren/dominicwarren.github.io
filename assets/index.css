@@ -128,6 +128,7 @@ a:hover::after {
 
 .item-description {
 	color: #595959;
+	font-size: 20px;
 }
 
 
