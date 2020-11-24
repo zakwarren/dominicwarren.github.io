@@ -224,7 +224,10 @@ li {
 
 .writing-list {
     list-style-type: none;
-    padding-bottom: 20%;
+}
+
+.writing-list-item {
+    padding-bottom: 20%;	
 }
 
 hr {
