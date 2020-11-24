@@ -116,12 +116,6 @@ a:hover::after {
 	line-height: 125%;
 }
 
-
-.intro {
-	font-family: "Arial", sans-serif;
-	line-height: 125%;
-}
-
 .profile-photo {
 
 }
@@ -166,11 +160,6 @@ a:hover::after {
 	margin: 5%;
 }
 
-.hp-block {
-	display: block;
-	padding-bottom: 25px;
-}
-
 #arrow-icon {
 	font-family: 100px;
 	font-weight: bold;
@@ -197,26 +186,12 @@ h1 {
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 50px;
 }
 
 h3 {
-    font-size: 50px;
-}
-
-.homepage-header {
-    font-size: 35px;
-    line-height: 55px;
-}
-
-.homepage-header-two {
-	font-size: 30px;
-    margin-top: 0px;
-}
-
-.item-details {
-    line-height: 22px;
+    font-size: 40px;
 }
 
 /* Other page styling */
@@ -240,60 +215,20 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-	padding: 10px;
+    padding: 10px;
 }
 
 li {
     padding-bottom: 14px;
 }
 
-/* Article footer */
+.writing-list {
+    list-style-type: none;
+    padding-bottom: 20%;
+}
 
 hr {
     margin-top: 45px;
-}
-
-.article-footer {
-    font-style: italic;
-    color: #595959;
-}
-
-/* Footer */
-
-.footer {
-	font-family: "Courier", "Courier New", monospace;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-    width: 100%;
-	visibility: hidden;
-}
-
-.footer-content {
-    font-size: 14px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.footer-link {
-    font-size: 14px;
-    color: #000000;
-}
-
-.heart {
-	cursor: pointer;
-    transition: all 0.3s linear;
-    font-size: 23px;
-    font-weight: 700;
-}
-
-.heart:hover {
-    color: red;
-    cursor: pointer;
-    font-size: 23px;
-    font-weight: 700;
-	background: none;
-	outline: none;
 }
 
 /* Responsive */
