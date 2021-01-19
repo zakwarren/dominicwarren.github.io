@@ -134,6 +134,8 @@ a:hover::after {
 	max-width: 540px;
 	display: block;
 	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .column {
