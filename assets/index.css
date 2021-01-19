@@ -51,6 +51,14 @@ body {
     display: block;
 }
 
+.content {
+	max-width: 540px;
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Links */
 a {
   position: relative;
@@ -108,7 +116,7 @@ a:hover::after {
 }
 
 
-/* Page layout */
+/* Profile photo */
 
 .profile-photo {
 	height: 65%;
@@ -135,21 +143,6 @@ a:hover::after {
 	height: 100%;
 	width: 100%;
 }
-
-.content {
-	max-width: 540px;
-	display: block;
-	margin-top: 30px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.column {
-	width: 40%;
-	float: left;
-	margin: 5%;
-}
-
 
 #spacer-bottom {
 	display: none;
@@ -183,7 +176,7 @@ h3 {
 .portfolio-description {
     color: #999999;
     font-style: italic;
-    padding-bottom: -10px;	
+    margin-bottom: -50px;	
 }
 
 /* Other page styling */
