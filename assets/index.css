@@ -150,10 +150,6 @@ a:hover::after {
 	margin: 5%;
 }
 
-#arrow-icon {
-	font-family: 100px;
-	font-weight: bold;
-}
 
 #spacer-bottom {
 	display: none;
@@ -182,6 +178,12 @@ h2 {
 
 h3 {
     font-size: 40px;
+}
+
+.portfolio-description {
+    color: #999999;
+    font-style: italic;
+    padding-bottom: -10px;	
 }
 
 /* Other page styling */
