@@ -111,8 +111,8 @@ a:hover::after {
 /* Page layout */
 
 .profile-photo {
-	height: 75%;
-	width: 75%;
+	height: 65%;
+	width: 65%;
 }
 
 .post-profile-photo {
