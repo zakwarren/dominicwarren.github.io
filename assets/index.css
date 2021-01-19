@@ -34,7 +34,7 @@ body {
     margin: auto;
     flex: 1;
     margin-top: 100px;
-	margin-bottom: 100px;
+    margin-bottom: 100px;
     padding-left: 30px;
     padding-right: 30px;
     display: block;
@@ -45,7 +45,7 @@ body {
     margin: auto;
     flex: 1;
     margin-top: 250px;
-	margin-bottom: 100px;
+    margin-bottom: 100px;
     padding-left: 30px;
     padding-right: 30px;
     display: block;
@@ -109,17 +109,6 @@ a:hover::after {
 
 
 /* Page layout */
-.intro-heading {
-	font-size: 60px;
-	font-family: "Arial", sans-serif;
-	font-weight: bold;
-	line-height: 125%;
-}
-
-.profile-photo {
-
-}
-
 .post-profile-photo {
 	border-radius: 50%;
 	height: 7%;
@@ -142,16 +131,9 @@ a:hover::after {
 }
 
 .content {
-	max-width: 100%;
+	max-width: 540px;
 	display: block;
 	margin-top: 30px;
-}
-
-.content2 {
-	max-width: 100%;
-	display: block;
-	margin-top: 30px;
-	font-size: 40px;
 }
 
 .column {
