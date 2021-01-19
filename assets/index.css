@@ -109,6 +109,12 @@ a:hover::after {
 
 
 /* Page layout */
+
+.profile-photo {
+	height: 10%;
+	width: 10%;
+}
+
 .post-profile-photo {
 	border-radius: 50%;
 	height: 7%;
