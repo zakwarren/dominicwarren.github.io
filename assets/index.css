@@ -201,7 +201,7 @@ h3 {
 }
 
 img {
-    max-width: 980px;
+    max-width: 540px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -210,14 +210,6 @@ img {
 
 li {
     padding-bottom: 14px;
-}
-
-.writing-list {
-    list-style-type: none;
-}
-
-.writing-list-item {
-    padding-bottom: 5%;	
 }
 
 hr {
