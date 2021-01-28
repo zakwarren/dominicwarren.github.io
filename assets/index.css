@@ -153,6 +153,7 @@ a:hover::after {
 h1, h2, h3 {
     font-family: "Arial", sans-serif;
     font-weight: 900;
+    border-bottom: 1px solid #cccccc;
 }
 
 h1 {
