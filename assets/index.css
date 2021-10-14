@@ -119,8 +119,8 @@ a:hover::after {
 /* Profile photo */
 
 .profile-photo {
-	height: 65%;
-	width: 65%;
+	height: 75%;
+	width: 75%;
 }
 
 .post-profile-photo {
@@ -217,7 +217,7 @@ hr {
 	margin: 5%;
   }
 img {
-    max-width: 300px;
+    max-width: 400px;
   }
 h1 {
     font-size: 70px;
