@@ -216,9 +216,10 @@ hr {
 	width: 90%;
 	margin: 5%;
   }
-img {
-    max-width: 400px;
-  }
+.profile-photo {
+	height: 100%;
+	width: 100%;
+}
 h1 {
     font-size: 70px;
   }
