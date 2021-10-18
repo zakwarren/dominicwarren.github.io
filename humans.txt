@@ -8,5 +8,5 @@ Name: Albie, the dog
        
 /* SITE */
 Last update: October 2021
-Standards: HTML, CSS
+Languages: HTML, CSS
 Software: Github
