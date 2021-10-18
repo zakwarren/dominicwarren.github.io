@@ -194,6 +194,10 @@ img {
     margin-right: auto;
 }
 
+.work-img {
+   padding-bottom: 10px;	
+}
+
 li {
     padding-bottom: 14px;
 }
