@@ -1,0 +1,85 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+
+const title = "Case study on every word matters • Dominic Warren";
+const description = "Case study on every word matters.";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead {title} {description} />
+    <link rel="stylesheet" href={Astro.resolve("../../styles/portfolio.css")} />
+  </head>
+  <body>
+    <main>
+      <a href="/">Back</a>
+
+      <p class="portfolio-description">Portfolio: every word matters</p>
+      <h1>every word matters</h1>
+
+      <img
+        src="/portfolio/every-word-matters/every-word-matters.png"
+        alt="every word matters"
+      />
+
+      <h2>Overview</h2>
+
+      <h3>Challenge</h3>
+      <p>
+        Set up a blog interviewing Content Designers and UX Writers from across
+        the industry that's helpful for anyone looking to join, or already in,
+        the industry — <a
+          href="https://medium.com/everywordmatters"
+          target="_blank"
+          rel="noreferrer">every word matters</a
+        >.
+      </p>
+
+      <h3>Basic process</h3>
+      <ul>
+        <li>Decide on a name for the blog</li>
+        <li>
+          Look at other interview sites to see what questions they ask people in
+          similar fields
+        </li>
+        <li>Compare hosting and blog platform options</li>
+        <li>Set up a publication on Medium</li>
+        <li>Set up a Twitter account for the blog</li>
+        <li>Design a visual identity</li>
+        <li>
+          Start listing out people you want to interview, along with how to
+          contact them
+        </li>
+        <li>Write out as many questions as I could think of</li>
+        <li>Edit the questions down to a more manageable amount</li>
+        <li>
+          Start contacting people to see if they'd be interested in taking part
+        </li>
+        <li>
+          If they are, send them the questions and request a photo of them
+        </li>
+        <li>
+          Design the header images so the interviewees name, company and photo
+          can be placed in
+        </li>
+        <li>Edit the response from interviewees</li>
+        <li>
+          Draft the response on Medium, writing tags and adding it to the
+          publication
+        </li>
+        <li>Review the interview one last time</li>
+        <li>Publish the interview</li>
+        <li>Share the interview on Twitter</li>
+      </ul>
+
+      <h3>Results</h3>
+      <p>
+        A successful blog that features over 25 interviews and has over 900
+        followers at time of writing. The interviews cover an international
+        industry with writers from some of the biggest companies in UX and tech,
+        like Dropbox, Headspace and Deliveroo.
+      </p>
+    </main>
+  </body>
+</html>

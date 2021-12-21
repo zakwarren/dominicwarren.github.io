@@ -1,0 +1,81 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+
+const title =
+  "Case study on TrustedHousesitters release notes • Dominic Warren";
+const description =
+  "A case study example of work I did at TrustedHousesitters.";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead {title} {description} />
+    <link rel="stylesheet" href={Astro.resolve("../../styles/portfolio.css")} />
+  </head>
+  <body>
+    <main>
+      <a href="/">Back</a>
+
+      <p class="portfolio-description">Portfolio: TrustedHousesitters</p>
+      <h1>TrustedHousesitters release notes</h1>
+
+      <img
+        src="/portfolio/ths-release-notes/THS-app-store.png"
+        alt="Trusted Housesitters app store"
+      />
+      <img
+        src="/portfolio/ths-release-notes/THS-release-notes-1.jpeg"
+        alt="Trusted Housesitters release notes 1"
+      />
+      <h2>Overview</h2>
+
+      <h3>Challenge</h3>
+      <p>
+        Improve the copy for app release notes. This is to make sure they better
+        reflect the new brand persona and give useful information.
+      </p>
+
+      <img
+        src="/portfolio/ths-release-notes/THS-release-notes-2.jpeg"
+        alt="Trusted Housesitters release notes 2"
+      />
+      <h3>Basic process</h3>
+      <ul>
+        <li>Review and audit the previous release notes</li>
+        <li>Discuss with the Development team</li>
+        <li>Research release notes from other companies</li>
+        <li>
+          Collect information on the limits and rules for publishing notes for
+          Android and iOS
+        </li>
+        <li>
+          Draft various versions to explore how the tone of voice can be used
+        </li>
+        <li>
+          Pair write the first new release note with the Development team's
+          Scrum Master to get a full understanding
+        </li>
+        <li>Record specific decisions in a reference document</li>
+        <li>Publish the release notes with the app update</li>
+        <li>
+          Develop a process to continue writing the release notes in time for
+          each app release
+        </li>
+      </ul>
+
+      <h3>Results</h3>
+      <p>
+        Clearer release notes that also show off the brand's voice. The give
+        actual, specific information on what's new and what's been fixed. These
+        funner notes also give something extra to those who take the time to
+        read them.
+      </p>
+      <p>
+        I also produced a release notes style guide from the findings. This
+        means the Development team can write their own notes when I'm not
+        available or there's an emergency release.
+      </p>
+    </main>
+  </body>
+</html>

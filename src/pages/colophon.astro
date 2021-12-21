@@ -1,0 +1,44 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+
+const title = "Colophon • Dominic Warren";
+const description =
+  "Some information about this website and how it's designed.";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead {title} {description} />
+  </head>
+  <body>
+    <main>
+      <a href="/">Back</a>
+      <h1>Colophon</h1>
+      <p>
+        This site is hosted on Github, using <a
+          href="https://pages.github.com/"
+          target="_blank"
+          rel="noreferrer">Github Pages</a
+        >.
+      </p>
+      <p>
+        It was coded using <a
+          href="https://astro.build/"
+          target="_blank"
+          rel="noreferrer">Astro</a
+        >, which compiles down to simple HTML and CSS.
+      </p>
+      <p>
+        The typeface used for the body copy is Roboto, from <a
+          href="https://fonts.google.com/specimen/Roboto"
+          target="_blank"
+          rel="noreferrer">Google Fonts</a
+        >. The headings are <a
+          href="https://www.fonts.com/font/monotype/arial/story"
+          target="_blank">Arial</a
+        >.
+      </p>
+    </main>
+  </body>
+</html>

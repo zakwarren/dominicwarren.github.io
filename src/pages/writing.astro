@@ -1,0 +1,117 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+
+const title = "Writing • Dominic Warren";
+const description =
+  "A big list of all the articles and blog posts I've written.";
+
+const links = [
+  {
+    href: "/posts/content-design-principles",
+    label: "My 7 content design principles",
+  },
+  {
+    href: "/posts/work-shared",
+    label: "Having your work shared",
+  },
+  {
+    href: "/posts/healthy-naivety",
+    label: "Healthy naivety",
+  },
+  {
+    href: "/posts/ux-brighton-19",
+    label: "Write-up of UX Brighton 2019",
+  },
+  {
+    href: "/posts/hardly-working",
+    label: "Working hard or hardly working?",
+  },
+  {
+    href: "/posts/accepting-feedback",
+    label: "Don't be precious: accepting edits and feedback",
+  },
+  {
+    href: "/posts/talking-at-clearleft",
+    label: "A late write-up of my 'lunch and learn' session at Clearleft",
+  },
+  {
+    href: "/posts/giving-up-social-media",
+    label: "Giving up social media for a week",
+  },
+  {
+    href: "/posts/what-is-ux-writing",
+    label: "What is UX writing?",
+  },
+  {
+    href: "/posts/new-job-resolutions",
+    label: "My new job resolutions",
+  },
+  {
+    href: "/posts/goodbye-rsa",
+    label: "Goodbye RSA",
+  },
+  {
+    href: "/posts/how-we-read",
+    label: "How we read",
+  },
+  {
+    href: "/posts/every-word-matters-one-year-on",
+    label: "every word matters: one year on",
+  },
+  {
+    href: "/posts/how-workplace-language-dehumanises",
+    label: "How workplace language dehumanises",
+  },
+  {
+    href: "/posts/jurassic-park-and-stakeholders",
+    label:
+      "What Jurassic Park can teach us about too many stakeholders and past mistakes",
+  },
+  {
+    href: "/posts/emotional-content-design",
+    label: "Emotional content design",
+  },
+  {
+    href: "/posts/plain-english-isnt-dumbing-down",
+    label: "Why plain English isn't 'dumbing down'",
+  },
+  {
+    href: "/posts/writing-as-design",
+    label: "Writing as design",
+  },
+  {
+    href: "/posts/writing-about-people",
+    label: "Writing about people",
+  },
+  {
+    href: "/posts/sentence-case-or-title-case",
+    label: "Sentence case or title case?",
+  },
+  {
+    href: "/posts/writing-for-the-web",
+    label: "Writing for the web and content design",
+  },
+];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead {title} {description} />
+  </head>
+  <body>
+    <main>
+      <a href="/">Back</a>
+
+      <h1>Writing</h1>
+
+      <ul>
+        {links.map((link) => (
+          <li>
+            <a href={link.href}>{link.label}</a>
+          </li>
+        ))}
+      </ul>
+    </main>
+  </body>
+</html>

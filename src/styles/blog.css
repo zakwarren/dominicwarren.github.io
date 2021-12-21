@@ -1,0 +1,15 @@
+.blog-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.blog-link {
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+}
+
+blockquote {
+  margin: 1.5rem auto 1.5rem 1rem;
+  font-style: italic;
+}
