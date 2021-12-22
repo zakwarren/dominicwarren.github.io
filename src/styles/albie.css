@@ -1,0 +1,52 @@
+:root {
+  --width: 1000px;
+  --height: 650px;
+}
+
+.background {
+  max-width: 100%;
+}
+
+#main {
+  margin: 0 auto;
+  width: 40rem;
+  width: var(--width);
+  height: var(--height);
+  position: relative;
+}
+
+canvas {
+  margin-bottom: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+#display {
+  width: var(--width);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#score,
+#info {
+  width: 10rem;
+}
+
+#start {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background-color: #0000ff;
+  color: white;
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  transition: color ease 0.5s;
+}
+
+#start:hover {
+  background-color: #0000bd;
+}

@@ -1,0 +1,26 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import { Albie } from "../components/albie/Albie.tsx";
+
+const title = "Albie • Dominic Warren";
+const description = "Help Albie eat all the snacks.";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead {title} {description} />
+    <link rel="stylesheet" href={Astro.resolve("../styles/albie.css")} />
+  </head>
+
+  <body>
+    <Albie client:only />
+    <main>
+      <h3>Help Albie to eat all the snacks!</h3>
+      <p>
+        Use the arrow keys on your keyboard to control the bone. Keep Albie from
+        falling. Bounce him to the snacks so he can eat those delicious morsels.
+      </p>
+    </main>
+  </body>
+</html>
